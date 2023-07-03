@@ -1,0 +1,49 @@
+<nav class="bg-gradient-to-r from-[#af8514] to-[#CE9d19]/70">
+  <div class="max-w-7xl px-4 sm:px-6 lg:px-2">
+    <div class="flex items-center justify-between h-16">
+      <div class="flex md:hidden">
+        <button type="button" class="text-white focus:outline-none focus:text-white" (click)="handleMenu()">
+          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="white">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Menú de navegación -->
+      <div class="hidden md:block">
+        <ul class="flex">
+          <li>
+            <app-link route="inicio" label="inicio"></app-link>
+          </li>
+          <li>
+            <app-link route="noticias" label="noticias"></app-link>
+          </li>
+          <li>
+            <app-link route="conocenos" label="conocenos"></app-link>
+          </li>
+          <li>
+            <app-link route="recorrido" label="recorrido"></app-link>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Menú desplegable para pantallas pequeñas -->
+  <div [ngClass]="{ block: open, hidden: !open }" class="md:hidden">
+    <ul class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+      <li>
+        <mLink label="inicio" route="/"></mLink>
+      </li>
+      <li>
+        <mLink label="noticias" route="/noticias"></mLink>
+      </li>
+      <li>
+        <mLink label="quienes somos" route="/conocenos"></mLink>
+      </li>
+      <li>
+        <mLink label="recorrido" route="/recorrido"></mLink>
+      </li>
+    </ul>
+  </div>
+</nav>
