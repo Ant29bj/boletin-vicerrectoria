@@ -8,6 +8,9 @@ import { MenuComponent } from './components/menu/menu.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MobileLinkComponent } from './components/mobile-link/mobile-link.component';
 import { LinkComponent } from './components/link/link.component';
+import { NewsCardComponent } from './components/news-card/news-card.component';
+import { NoticiasComponent } from './pages/noticias/noticias.component';
+import { InicioComponent } from './pages/inicio/inicio.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +19,9 @@ import { LinkComponent } from './components/link/link.component';
     MenuComponent,
     MobileLinkComponent,
     LinkComponent,
+    NewsCardComponent,
+    NoticiasComponent,
+    InicioComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule],
   providers: [],
