@@ -1,27 +1,30 @@
-# Vicerrectoria
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.3.
+# Boletin de Noticias - Un proyecto de Vicerrectoria 🎓
 
-## Development server
+Como parte de un proyecto de trabajo social, el area de vicerrectoria de la UAS(Universidad Autonoma de Sinaloa) solicito una pagina web que tuviera la funcion de ser un boletin iformativo.(Esta es una aplicacion de demo y no es la version original)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Authors 🌍
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Jesus Antonio Bojorquez Espinoza](https://github.com/Ant29bj)
+- [Jesus Guadalupe Gonzales Moreno](https://github.com/jgonzalez13338)
+- [Carlos Manuel Patron Ortega](https://github.com/CarlosPatron)
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Montar en desarrollo ⚒️
 
-## Running unit tests
+Para ejecutar este proyecto es necesario tener instalado nodejs, un gestor de paquete y el cli de angular.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Instalar dependencias
+```bash
+  npm install
+```
+Ejecutar aplicacion
+```bash
+  ng serve:o
+```
 
-## Running end-to-end tests
+## Mocks
+![image](https://github.com/Ant29bj/boletin-vicerrectoria/assets/111606983/7d442911-698d-4d3f-9298-cc5d1034ffca)
+![image](https://github.com/Ant29bj/boletin-vicerrectoria/assets/111606983/190d3693-0027-45bf-8d97-ad1685f0b2b8)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
